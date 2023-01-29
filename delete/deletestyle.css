@@ -1,0 +1,60 @@
+body{
+    margin: 8px;
+}
+#adj_id{
+    display: flex;
+    justify-content: right;
+}
+h1{
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#tblname{
+    color: red;
+    font-style: italic;
+}
+label{
+    margin-top: 5px;
+    margin-right: 5px;
+    font-weight: 700;
+}
+#Loc_id{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    width: 10%;
+}
+select,input[type=submit]{
+    height: 2rem;
+}
+input[type=submit]{
+    margin-top: 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+input[type=submit]:hover{
+    background-color: red;
+    color:white;
+}
+table th{
+    background-color: red;
+}
+#redirectbtn{
+    border: none;
+    background: none;   
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.left {
+    transform: rotate(135deg);
+    margin-bottom: 50%;
+}
