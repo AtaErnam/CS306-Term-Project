@@ -1,2 +1,4 @@
 # CS306-Term-Project
-A basic website for viewing and editing information from The Turkish Football Federation 
+Please note that, for website to work properly you have to enter it from welcome.php
+
+
